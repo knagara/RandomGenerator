@@ -35,24 +35,28 @@ SetInterval関数で、元となる一様分布の区間を指定することが
     myRand.SetInterval(INTEGER); //ランダムな整数を取得
     int number = myRand.GetRandom();
 
+
 ####列挙型の一覧
 #####分布　TypeOfDistribution
-*UNIFORM     一様分布
-*NORMAL      正規分布
-*EXP         指数分布
-*CHI         カイ二乗分布
-*CAUCHY      コーシー分布
-*GAMMA       ガンマ分布
-*LOG_NORMAL  対数正規分布
-*INV_GAUSS   逆ガウス分布
+* UNIFORM     一様分布
+* NORMAL      正規分布
+* EXP         指数分布
+* CHI         カイ二乗分布
+* CAUCHY      コーシー分布
+* GAMMA       ガンマ分布
+* LOG_NORMAL  対数正規分布
+* INV_GAUSS   逆ガウス分布
+
 #####乱数　TypeOfRandom
-PSEUDO      疑似乱数
-LDS         超一様分布列
+* PSEUDO      疑似乱数
+* LDS         超一様分布列
+
 #####区間　TypeOfInterval
-OPEN        開区間 (0,1)
-RIGHT_OPEN  [0,1)
-CLOSED      閉区間 [0,1]
-INTEGER     整数
+* OPEN        開区間 (0,1)
+* RIGHT_OPEN  [0,1)
+* CLOSED      閉区間 [0,1]
+* INTEGER     整数
+
 
 ####分布のパラメータ
 第1引数，第2引数,…の順番に並べています

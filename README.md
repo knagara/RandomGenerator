@@ -35,7 +35,7 @@ SetInterval関数で、元となる一様分布の区間を指定することが
     myRand.SetInterval(INTEGER); //ランダムな整数を取得
     int number = myRand.GetRandom();
 
-
+  
 ####列挙型の一覧
 #####分布　TypeOfDistribution
 * UNIFORM     一様分布
@@ -57,7 +57,7 @@ SetInterval関数で、元となる一様分布の区間を指定することが
 * CLOSED      閉区間 [0,1]
 * INTEGER     整数
 
-
+  
 ####分布のパラメータ
 第1引数，第2引数,…の順番に並べています
 #####一様分布

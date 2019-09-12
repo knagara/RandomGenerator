@@ -48,11 +48,11 @@ SetInterval関数で、元となる一様分布の区間を指定することが
 * LOG_NORMAL  対数正規分布
 * INV_GAUSS   逆ガウス分布
 
-#####乱数　TypeOfRandom
+##### 乱数　TypeOfRandom
 * PSEUDO      疑似乱数
 * LDS         超一様分布列
 
-#####区間　TypeOfInterval
+##### 区間　TypeOfInterval
 * OPEN        開区間 (0,1)
 * RIGHT_OPEN  [0,1)
 * CLOSED      閉区間 [0,1]
